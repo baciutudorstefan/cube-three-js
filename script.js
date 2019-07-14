@@ -14,7 +14,7 @@ material.flatShading = true;
 var cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
-camera.position.z = 3;
+camera.position.z = 1.5;
 
 var animate = function () {
 requestAnimationFrame( animate );
