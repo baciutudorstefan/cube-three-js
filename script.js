@@ -8,8 +8,12 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+for ( var i = 0; i < geometry.faces.length; i ++ ) {
+    geometry.faces[ i ].color.setHex( Math.random() * 0xffffff );
+}
 
-var material = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
+var material = new THREE.MeshBasicMaterial( { color: 0xffffff, vertexColors: THREE.FaceColors } );
+
 material.flatShading = true;
 var cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
