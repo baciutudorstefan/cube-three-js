@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+}
+
+#canvas{
+    border: 1px solid black;
+}
+
+/* 
+.box{
+    border: 1px solid black;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
+.head{
+    background: hsl(34, 34%, 49%);
+    border-radius: 50%;
+    width: 50%;
+    height: 70%;
+    margin-left: 24%;
+    margin-top: 16%;
+    position: absolute;
+    z-index: 2;
+}
+
+.left-ear{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid hsl(39, 39%, 61%);
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 11%;
+    z-index: 1;
+}
+
+.right-ear{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid hsl(39, 39%, 61%);
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 11%;
+    z-index: 1;
+}
+
+.left-eye{
+    background: #437355;
+    border-radius: 85%;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 30%;
+    z-index: 2;
+}
+
+.right-eye{
+    background: #437355;
+    border-radius: 85%;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-left: 54%;
+    margin-top: 30%;
+    z-index: 2;
+}
+
+.eye-dot{
+    border-radius: 40%;
+    background: black;
+    width: 5px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 9%;
+}
+
+.left-nose {
+    border: 1px solid;
+    border-color: transparent transparent black black;
+    border-radius: 85%;
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    margin-left: 41.9%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: rotate(-35deg);
+}
+
+.right-nose {
+    border: 1px solid;
+    border-color: black black transparent transparent ;
+    border-radius: 85%;
+    width: 32px;
+    height: 41px;
+    position: absolute;
+    margin-left: 49.5%;
+    margin-top: 39%;
+    z-index: 2;
+    transform: rotate(130deg);
+}
+
+.line-nose{
+    background: black;
+    width: 1px;
+    height: 40px;
+    margin-left: 49.1%;
+    margin-top: 42.5%;
+    position: absolute;
+    z-index: 2;
+} */
+
